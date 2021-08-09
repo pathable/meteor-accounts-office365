@@ -16,8 +16,8 @@ Package.onUse(function(api) {
 
   api.use('accounts-oauth', ['client', 'server']);
 
-  api.use('lindoelio:office365-oauth@1.1.0');
-  api.imply('lindoelio:office365-oauth@1.1.0');
+  api.use('pathable:office365-oauth@1.1.0');
+  api.imply('pathable:office365-oauth@1.1.0');
 
   api.use(
     ['accounts-ui'],
